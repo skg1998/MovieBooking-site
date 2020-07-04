@@ -1,0 +1,16 @@
+app-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .card{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }

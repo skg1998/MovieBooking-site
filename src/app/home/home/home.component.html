@@ -1,0 +1,24 @@
+<div class="text-center m-5">
+    <h1 >LATEST MOVIES</h1>
+    <h5 >Some top  movies of the month</h5>
+</div>
+<div class="card-container">
+<div *ngFor="let movie of movies">
+    <a class="card" routerLink="/bookMovie">
+    <div class="card-body text-center">
+        <div class="row">
+        <div class="col-md-10">
+            <img [(src)]="movie.imgUrl" class="img-fluid img" />
+            <h3> {{movie.name}} </h3>
+        </div>
+        <div class="col-md-2">
+            <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>   
+        </div>
+        </div>
+    </div>
+    </a>
+</div>
+</div>
+
+<app-footer></app-footer>
+  

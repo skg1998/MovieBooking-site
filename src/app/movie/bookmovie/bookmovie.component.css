@@ -1,0 +1,22 @@
+.booking-btn button.btn{
+    display: block !important;
+    margin: auto !important;
+}
+
+app-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .card{
+      display: block;
+      margin: auto;
+      width: 80%;
+      padding: 10px 20px;
+      margin-top: 40px !important;
+      margin-bottom: 40px !important;
+  }
+
